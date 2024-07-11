@@ -5,7 +5,13 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        Aldrich: ["Aldrich", "sans-serif"],
+        Bungee: ["Bungee", "sans-serif"],
+        robotomono: ['Roboto Mono', 'monospace']
+      },
+    },
   },
   plugins: [],
 }
