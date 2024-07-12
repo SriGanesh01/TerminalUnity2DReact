@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import LogoSVG16 from '../assets/lgoBWT.svg';
 
-function HeaderDemo() {
+function Header() {
     const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
     const toggleDropdown = () => {
@@ -21,7 +21,7 @@ function HeaderDemo() {
                         <a href="/home" className='text-white text-[25px] font-normal font-Aldrich hover:underline'>home</a>
                     </li>
                     <li>
-                        <a href="/demo" className='text-white text-[25px] font-normal font-Aldrich underline hover:underline'>demo</a>
+                        <a href="/demo" className='text-white text-[25px] font-normal font-Aldrich hover:underline'>demo</a>
                     </li>
                     <li>
                         <a href="/documentation" className='text-white text-[25px] font-normal font-Aldrich hover:underline'>documentation</a>
@@ -56,4 +56,4 @@ function HeaderDemo() {
     );
 }
 
-export default HeaderDemo;
+export default Header;

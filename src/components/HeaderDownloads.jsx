@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import LogoSVG16 from '../assets/lgoBWT.svg';
 
-function HeaderHome() {
+function HeaderDownloads() {
     const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
     const toggleDropdown = () => {
@@ -56,4 +56,4 @@ function HeaderHome() {
     );
 }
 
-export default HeaderHome;
+export default HeaderDownloads;

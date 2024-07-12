@@ -5,6 +5,7 @@ import Home from './pages/Home'
 import Demo from './pages/Demo'
 import Downloads from './pages/Downloads'
 import Documents from './pages/Documents'
+import NoPage from './pages/NoPage'
 
 function App() {
     return (
@@ -16,6 +17,7 @@ function App() {
                     <Route path="/demo" element={<Demo />} />
                     <Route path="/downloads" element={<Downloads />} />
                     <Route path="/documentation" element={<Documents />} />
+                    <Route path="*" element={<NoPage />} />
                 </Routes>
             </BrowserRouter>
             <ToastContainer />
