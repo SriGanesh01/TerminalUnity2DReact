@@ -1,4 +1,5 @@
 import GreyLineDotted from "../assets/GreyLineDotted.svg";
+import WhiteLinesFull from "../assets/WhiteLinesFull.svg";
 import instagram from '../assets/instagram.svg';
 import facebook from '../assets/facebook.svg';
 import twitter from '../assets/twitter.svg';
@@ -8,7 +9,7 @@ import github from '../assets/github-mark.svg';
 function HeroHome() {
     return (
         <>
-            <img src={GreyLineDotted} alt="" className="pt-3 pb-20 bg-[#595959]" />
+            <img src={GreyLineDotted} alt="" className="w-screen pt-3 pb-20 bg-[#595959]" />
             <div className="text-center bg-[#595959] flex flex-col justify-center items-center py-10 pt-[125px]">
                 <p className="text-[47px] text-[#ffffff] font-Aldrich mb-[-25px]">
                     Terminal For Games
@@ -21,7 +22,8 @@ function HeroHome() {
                 </button>
             </div>
             <div className="bg-[#595959] pl-5 flex pt-[80px]">
-                <p className="text-[#FFFFFF] font-Aldrich text-[16px]">Follow Us On</p>
+                <p className="text-[#FFFFFF] font-Aldrich text-[16px] pr-5">Follow Us On</p>
+                <img src={WhiteLinesFull} alt="WhiteLinesFull" />
                 <ol className="flex space-x-4 pl-5">
                     <li>
                         <a href="https://www.instagram.com/_sriganesh___?igsh=MXdsZThsanZtMHI3Mg%3D%3D" target="_blank" rel="noopener noreferrer">
@@ -50,7 +52,7 @@ function HeroHome() {
                     </li>
                 </ol>
             </div>
-            <img src={GreyLineDotted} alt="" className="pb-3 pt-2 bg-[#595959]" />
+            <img src={GreyLineDotted} alt="" className="w-screen pb-3 pt-2 bg-[#595959]" />
         </>
     );
 }

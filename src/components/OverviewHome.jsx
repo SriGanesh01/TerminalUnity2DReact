@@ -19,7 +19,7 @@ function OverviewHome() {
                     our site provides all the resources and support you need to make the most 
                     of Terminal Emulator.
                 </p>
-            <img src={GreyLineDotted} alt="GreyLineDotted" className="w-full my-5 pt-20" />
+            <img src={GreyLineDotted} alt="GreyLineDotted" className="w-screen my-5 pt-20" />
         </div>
     );
 }
