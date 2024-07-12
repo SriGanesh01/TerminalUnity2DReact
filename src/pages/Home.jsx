@@ -1,4 +1,4 @@
-import Header from "../components/Header";
+import HeaderHome from "../components/HeaderHome";
 import HeroHome from "../components/HeroHome";
 import KnowMoreHome from "../components/KnowMoreHome";
 import OverviewHome from "../components/OverviewHome";
@@ -11,7 +11,7 @@ import Footer from "../components/Footer";
 function Home() {
     return (
         <div>
-            <Header />
+            <HeaderHome />
             <HeroHome />
             <KnowMoreHome />
             <OverviewHome /> 
