@@ -17,9 +17,11 @@ function HeroHome() {
                 <p className="text-[96px] text-[#000000] font-Bungee font-bold">
                     TE<span className="text-[#00FF1A]">R</span>MINAL EMULATO<span className="text-[#00FF1A]">R</span>
                 </p>
-                <button className="px-6 bg-[#00FF1A] text-[#000000] font-bold rounded-2xl border-4 border-black mb-[35px]">
-                    <div className="text-[31px] font-Aldrich">Get Started</div>
-                </button>
+                <a href="/downloads">
+                    <button className="px-6 bg-[#00FF1A] text-[#000000] font-bold rounded-2xl border-4 border-black mb-[35px]">
+                        <div className="text-[31px] font-Aldrich">Get Started</div>
+                    </button>
+                </a>
             </div>
             <div className="bg-[#595959] pl-5 flex pt-[80px]">
                 <p className="text-[#FFFFFF] font-Aldrich text-[16px] pr-5">Follow Us On</p>

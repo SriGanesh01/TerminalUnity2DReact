@@ -7,7 +7,7 @@ import github from '../assets/github-mark.svg';
 
 function Footer() {
     return (
-        <div className="flex flex-col items-center bg-[#595959] py-3">
+        <div className="flex flex-col items-center bg-[#323232] py-3">
             <ol className="flex justify-center h-6 mb-7 pt-1">
                 <li className="px-2">
                     <a href="https://www.instagram.com/_sriganesh___?igsh=MXdsZThsanZtMHI3Mg%3D%3D" target="_blank" rel="noopener noreferrer">

@@ -2,7 +2,7 @@ import BlackLinesDotted from '../assets/BlackLinesDotted.svg';
 
 function ScreenshotHero() {
     return (
-        <div className="">
+        <div className="bg-white">
             <div className="">
                 <h2 className="text-center text-9xl font-bold my-5 font-Aldrich">Screenshots</h2>
                 <div className='flex overflow-hidden group space-x-5'>
@@ -54,7 +54,7 @@ function ScreenshotHero() {
                     </div>
                 </div>
                 <p className="">See More</p>
-                <img src={BlackLinesDotted} alt="Black lines dotted" className="w-screen my-5" />
+                <img src={BlackLinesDotted} alt="Black lines dotted" className="w-screen pt-6 bg-white pb-6" />
             </div>
         </div>
     );
