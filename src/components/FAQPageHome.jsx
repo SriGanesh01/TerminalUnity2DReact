@@ -30,7 +30,7 @@ function FAQPageHome() {
   return (
     <div className="bg-gray-100 py-8">
       <div className="max-w-3xl mx-auto px-4">
-        <h2 className="text-3xl font-bold text-center mb-8">Frequently Asked Questions</h2>
+        <h2 className="text-xl sm:text-4xl lg:text-7xl font-bold text-center mb-8 sm:mb-12 sm:pt-10 lg:pt-16">Frequently Asked Questions</h2>
         <div className="flex flex-col space-y-6">
           {faqs.map((faq, index) => (
             <EachFAQ key={index} question={faq.question} answer={faq.answer} />
