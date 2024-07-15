@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import LogoSVG16 from '../assets/lgoBWT.svg';
 
-function HeaderDocumunts() {
+function HeaderHome() {
     const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
     const toggleDropdown = () => {
@@ -12,27 +12,27 @@ function HeaderDocumunts() {
         <div className="flex flex-row bg-[#323232] py-3 items-center justify-between px-5">
             <div>
                 <a href="/home">
-                    <img src={LogoSVG16} alt="Logo" className="w-[273px] h-[78.54px]" />
+                    <img src={LogoSVG16} alt="Logo" className="w-[100px] sm:w-[140px] lg:w-[270px] sm:pt-3" />
                 </a>
             </div>
             <div>
                 <ol className='flex flex-row space-x-5 text-white pt-[26px]'>
                     <li>
-                        <a href="/home" className='text-white text-[25px] font-normal font-Aldrich hover:underline'>home</a>
+                        <a href="/home" className='text-white text-[6px] sm:text-[12px] lg:text-[22px] font-normal font-Aldrich hover:underline'>home</a>
                     </li>
                     <li>
-                        <a href="/demo" className='text-white text-[25px] font-normal font-Aldrich hover:underline'>demo</a>
+                        <a href="/demo" className='text-white text-[6px] sm:text-[12px] lg:text-[22px] font-normal font-Aldrich hover:underline'>demo</a>
                     </li>
                     <li>
-                        <a href="/documentation" className='text-white text-[25px] font-normal font-Aldrich underline hover:underline'>documentation</a>
+                        <a href="/documentation" className='text-white text-[6px] sm:text-[12px] lg:text-[22px] font-normal font-Aldrich underline hover:underline'>documentation</a>
                     </li>
                     <li>
-                        <a href="/downloads" className='text-white text-[25px] font-normal font-Aldrich hover:underline'>download</a>
+                        <a href="/downloads" className='text-white text-[6px] sm:text-[12px] lg:text-[22px] font-normal font-Aldrich hover:underline'>download</a>
                     </li>
                     <li className="relative">
                         <button
                             onClick={toggleDropdown}
-                            className='text-white text-[25px] font-normal font-Aldrich hover:underline focus:outline-none'
+                            className='text-white text-[6px] sm:text-[12px] lg:text-[22px] font-normal font-Aldrich hover:underline focus:outline-none'
                         >
                             more
                         </button>
@@ -56,4 +56,4 @@ function HeaderDocumunts() {
     );
 }
 
-export default HeaderDocumunts;
+export default HeaderHome;

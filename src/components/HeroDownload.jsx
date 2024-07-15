@@ -5,28 +5,28 @@ import GreyLineDotted from "../assets/GreyLineDotted.svg";
 function HeroDownloads() {
     return (
         <div className="bg-[#595959] h-screen text-black">
-            <img src={GreyLineDotted} alt="" className="w-full pt-3 pb-20 bg-[#595959]" />
+            <img src={GreyLineDotted} alt="" className="w-full pt-3 pb-0 bg-[#595959]" />
             <div className="flex items-center justify-center h-full">
                 <div className="max-w-3xl mx-auto text-center px-4">
-                    <h1 className="text-4xl font-bold font-Bungee text-[60px] mb-6">Download the Game</h1>
+                    <h1 className="text-xl font-bold font-Bungee text-[26px] sm:text-[34px] lg:text-[56px] mb-6">Download the Game</h1>
                     <div className="mb-8">
                         <a
                             href="#"
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="inline-block px-8 py-4 bg-[#00FF1A] text-black text-lg font-Aldrich border-[#45a01e] border-4 rounded-md shadow-md hover:bg-green-700 transition-colors duration-300"
+                            className="inline-block px-4 py-2 lg:my-7 lg:mt-16 bg-[#00FF1A] text-black text-sm sm:text-2xl lg:text-4xl font-Aldrich border-[#45a01e] border-4 rounded-md shadow-md hover:bg-green-700 transition-colors duration-300"
                         >
                             Download on Unity Asset Store
                         </a>
                     </div>
-                    <p className="text-lg mb-6 font-Aldrich">
+                    <p className="text-sm sm:text-xl lg:text-2xl mb-6 font-Aldrich">
                         Get the full version of the game on the Unity Asset Store for the best experience.
                     </p>
                     <div className="flex justify-center">
                         <img
                             src={UnityLogo1}
                             alt="Unity Logo"
-                            className="h-32 w-auto"
+                            className="h-24 sm:h-28 lg:h-36 w-auto"
                         />
                     </div>
                 </div>

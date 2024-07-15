@@ -16,22 +16,22 @@ function Footer() {
                 </li>
                 <li className="px-2">
                     <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
-                        <img src={facebook} alt="Facebook" className="w-5 sm:w-5 lg:w-7" />
+                        <img src={facebook} alt="Facebook" className="w-3 sm:w-5 lg:w-7" />
                     </a>
                 </li>
                 <li className="px-2">
                     <a href="https://x.com/_sriganesh_?t=-1PlpyoUV2-HrKTCfp0Z2Q&s=09" target="_blank" rel="noopener noreferrer">
-                        <img src={twitter} alt="Twitter" className="w-5 sm:w-5 lg:w-7" />
+                        <img src={twitter} alt="Twitter" className="w-3 sm:w-5 lg:w-7" />
                     </a>
                 </li>
                 <li className="px-2">
                     <a href="https://www.linkedin.com/in/sriganesh-prakash-725a50279?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer">
-                        <img src={linkedin} alt="LinkedIn" className="w-5 sm:w-5 lg:w-7" />
+                        <img src={linkedin} alt="LinkedIn" className="w-3 sm:w-5 lg:w-7" />
                     </a>
                 </li>
                 <li className="px-2">
                     <a href="https://github.com/SriGanesh01" target="_blank" rel="noopener noreferrer">
-                        <img src={github} alt="GitHub" className="w-5 sm:w-5 lg:w-7" />
+                        <img src={github} alt="GitHub" className="w-3 sm:w-5 lg:w-7" />
                     </a>
                 </li>
             </ol>

@@ -34,21 +34,21 @@ export default function HeroContacts() {
             <div className="flex flex-col px-5 md:flex-row items-center justify-between max-w-7xl mx-auto my-10 p-5 ">
                 <div className="flex-1 md:pr-10 mb-10 md:mb-0">
                     <div className="text-center md:text-left">
-                        <p className='text-[32px] text-white font-Bungee'>
+                        <p className='text-[12px] sm:text-[18px] lg:text-[38px] text-white font-Bungee'>
                             Contact
                         </p>
-                        <p className='text-[80px] text-white font-Bungee'>
+                        <p className='text-[30px] sm:text-[40px] lg:text-[66px] text-white font-Bungee'>
                             Sriganesh.P
                         </p>
-                        <p className='text-[16px] text-white font-Bungee pb-5'>
+                        <p className='text-[10px] sm:text-[16px] lg:text-[36px] text-white font-Bungee pb-0'>
                             From
                         </p>
                     </div>
-                    <div className="flex justify-center md:justify-start mb-10">
-                        <img src={INVfull_logoBbg} alt="Innovixity Logo" className="w-auto h-32" />
+                    <div className="flex justify-center md:justify-start mb-0">
+                        <img src={INVfull_logoBbg} alt="Innovixity Logo" className="w-auto h-16 lg:h-28" />
                     </div>
                 </div>
-                <div className=" flex-1 bg-[#232323] shadow-md rounded-lg px-9 py-14">
+                <div className=" flex-1 bg-[#232323] shadow-md rounded-lg px-9 py-14 sm:w-[400px] lg:w-auto">
                     <div className="flex-1 ">
                         <form onSubmit={onSubmit}>
                             <div className="mb-4">
