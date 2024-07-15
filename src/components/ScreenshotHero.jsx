@@ -54,7 +54,7 @@ function ScreenshotHero() {
                     </div>
                 </div>
                 <p className="text-xs sm:text-sm lg:text-xl">See More</p>
-                <img src={BlackLinesDotted} alt="GreyLineDotted" className="w-full pt-6 bg-[#595959] pb-3" />
+                <img src={BlackLinesDotted} alt="GreyLineDotted" className="w-full pt-6 bg-white pb-3" />
             </div>
         </div>
     );
